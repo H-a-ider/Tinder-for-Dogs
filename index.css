@@ -100,7 +100,7 @@ footer img {
     display: none;
     width: 6rem;
     transform: rotate(-50deg);
-    position: absolute;
+    position: relative;
     bottom:13rem;
     left:17rem;
 }
@@ -109,7 +109,7 @@ footer img {
     display: none;
     width: 6rem;
     transform: rotate(-50deg);
-    position: absolute;
+    position: relative;
     bottom:13rem;
     left:17rem;
 }
