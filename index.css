@@ -102,8 +102,8 @@ footer img {
     width: 6rem;
     transform: rotate(-50deg);
     position: absolute;
-    bottom:13rem;
-    left:17rem;
+    /* bottom:13rem; 
+    left:17rem; */
 }
 
 .badgenope{
@@ -111,10 +111,16 @@ footer img {
     width: 6rem;
     transform: rotate(-50deg);
     position: absolute;
-    bottom:13rem;
-    left:17rem;
+    /* bottom:13rem; 
+    left:17rem; */
 }
 
+.bagde-container{
+    position: absolute;
+    top: 2em;
+    left: 0.4em;
+    transform: rotate(-35deg);
+}
 .last-text{
     margin-top: 8rem;
     text-align: center;
