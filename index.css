@@ -7,6 +7,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+main{
+    width: 24rem;
+}
 header {
     width: 24rem;
     display: grid;
