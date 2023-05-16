@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -51,13 +53,12 @@ footer img {
 .heart-icon {
     width: 2rem;
     position: relative;
-    z-index: 1
 }
 
 .cross-icon {
+    width: 2rem;
     padding-right: 1rem;
     position: relative;
-    z-index: 1
 }
 
 .doggy-data {
@@ -117,9 +118,12 @@ footer img {
 
 .bagde-container{
     position: absolute;
-    top: 2em;
-    left: 0.4em;
-    transform: rotate(-35deg);
+    top: 0.625rem;
+    left: 0.625rem;
+    width: 20%; /* Adjusted width to 550px */
+    height: 10%; /* Adjusted height to 892px */
+    z-index: 2; /* Ensure the icon is positioned above the image */
+    display: none;
 }
 .last-text{
     margin-top: 8rem;
