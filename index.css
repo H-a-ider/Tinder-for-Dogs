@@ -77,51 +77,32 @@ footer img {
     position: relative;
 }
 
-.dog-card {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    padding: 1rem;
-    color: white;
-    max-width: 15rem;
-    text-align: left;
-}
-
-
-
-.dog-name {
-    margin: 0;
-    padding: 0.25rem;
-    
-}
-
-.badgelike{
+.badgelike {
     display: none;
     width: 6rem;
     transform: rotate(-50deg);
     position: absolute;
-    /* bottom:13rem; 
-    left:17rem; */
+    top: 1rem;
+    left: calc(50% - 15rem - 1rem); /* Positioning from the left side of the dog avatar */
 }
 
-.badgenope{
+.badgenope {
     display: none;
     width: 6rem;
     transform: rotate(-50deg);
     position: absolute;
-    /* bottom:13rem; 
-    left:17rem; */
+    top: 1rem;
+    left: calc(50% + 15rem + 1rem); /* Positioning from the right side of the dog avatar */
 }
 
-.bagde-container{
+.bagde-container {
     position: absolute;
     top: 2em;
     left: 0.4em;
     transform: rotate(-35deg);
 }
-.last-text{
+
+.last-text {
     margin-top: 8rem;
     text-align: center;
     color: aqua;
