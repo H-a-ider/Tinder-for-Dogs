@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    width: 42rem;
+    width: 50%;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     justify-items: center;
@@ -70,7 +70,7 @@ footer img {
 .dog-avatar {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 50%;
+    width: 30%;
     object-fit: cover;
 }
 
